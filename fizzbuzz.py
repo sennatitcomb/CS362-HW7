@@ -6,6 +6,8 @@ def fizzbuzz():
             string+=", Fizz"
         elif num % 5 == 0 and num % 3 != 0:
             string+= ", Buzz"
+        elif num % 3 == 0 and num % 5 == 0:
+            string+= ", FizzBuzz"
         else:
             #print(num)
             string+=", "+str(num)
