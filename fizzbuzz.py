@@ -4,6 +4,8 @@ def fizzbuzz():
     while num <= 100:
         if num %3  == 0 and num % 5 != 0:
             string+=", Fizz"
+        elif num % 5 == 0:
+            string+= ", Buzz"
         else:
             #print(num)
             string+=", "+str(num)
